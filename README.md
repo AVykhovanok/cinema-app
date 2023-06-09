@@ -2,9 +2,12 @@
 
 
 ## About a project
-Cinema service is a basic web application for online booking of cinema tickets.<br>
-In this pet-project, the client can register, log in, add movie-sessions<br> and movies, search for available sessions and buy tickets.<br><br>
-
+Cinema service is a basic web application for online booking of cinema tickets. 
+It represents the work of a cinema service and providing the possibility of user 
+registration and authentication, as well as all CRUD operations with order, 
+shopping cart, movie, movie session and cinema hall.The web application consists 
+of backend part, it implemented using n-tired architecture in accordance with 
+SOLID and REST principles.
 ***
 
 ## Features
@@ -61,7 +64,11 @@ POST:/orders/complete - complete the order
 PUT: /shopping-carts/movie-sessions - add movie ticket to cart
 ```
 
----
+***
+## Model structure
+![Schema](Hibernate_Cinema_Uml.png)
+***
+
 
 ## Technologies
 
