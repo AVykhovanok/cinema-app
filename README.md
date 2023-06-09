@@ -6,7 +6,7 @@ Cinema service is a basic web application for online booking of cinema tickets.
 It represents the work of a cinema service and providing the possibility of user 
 registration and authentication, as well as all CRUD operations with order, 
 shopping cart, movie, movie session and cinema hall.The web application consists 
-of backend part, it implemented using n-tired architecture in accordance with 
+of backend part, it implemented using n-tiered architecture in accordance with 
 SOLID and REST principles.
 ***
 
@@ -72,11 +72,11 @@ PUT: /shopping-carts/movie-sessions - add movie ticket to cart
 
 ## Technologies
 
-* Java 17
-* Hibernate
-* Spring
-* MySQL
-* Apache Tomcat
+* Java - 17
+* Hibernate - 5.6.14.Final
+* Spring - 5.6.10
+* MySQL -  8.0.33
+* Apache Tomcat - 9.0.74
 ***
 
 ## Setup.
